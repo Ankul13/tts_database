@@ -1,6 +1,6 @@
 from psycopg.rows import dict_row
 from psycopg.types.json import Jsonb
-from repositories.audit_logs import get_audit_logs
+
 
 from connection import get_connection
 from repositories.records import (
